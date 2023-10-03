@@ -1,0 +1,163 @@
+/*Asiel*/
+
+body{
+    -webkit-background-clip: text;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+
+
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #00007099;
+    border-radius:50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #0f0f7b;
+}
+
+p{
+    margin:0%;
+    padding: 0%;
+}
+
+a{
+    margin:0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+
+
+.header_principal{
+    background: #090a26;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.ancla_menu{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu{
+    height: 104px;
+    background: #2B2B3B;
+    width: 1285px;
+    height: 50%;
+    border-radius: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.ancla_menu_seccion_1{
+    width: 20%;
+    height: 100%;
+    border-top-left-radius: 51px;
+    border-top-left-radius: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.ancla_menu_seccion_2{
+    width:60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+}
+
+.ancla_menu_seccion_3{
+    width: 20%;
+    height: 100%;
+    border-top-right-radius: 51px;
+    border-top-right-radius: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.boton_menu{
+    height: 55px;
+    width: 149px;
+    background: linear-gradient(90deg,#2A90FF,#2F6DFF,#3554FF, #9038F0, #EC315C, #FB5E05);
+    border-radius: 27.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.opcion_menu{
+    width: 10%;
+    height: 100%;
+    transition: 0.2s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.opcion_menu:hover{
+    background: #e8e8ec80;
+}
+
+
+
+
+
+/*----------------------------------------------------*/
+/*                Imágenes | Inicio*/
+/*----------------------------------------------------*/
+
+.imagen_menu{
+    height: 26px;
+    width: 139px;
+}
+
+/*----------------------------------------------------*/
+/*                Imágenes | Final*/
+/*----------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------*/
+/*                Texto | Inicio*/
+/*----------------------------------------------------*/
+
+.texto_menu{
+    color: #f7f6f6;
+    text-align: center;
+}
+
+
+
+/*----------------------------------------------------*/
+/*                Texto | Final*/
+/*----------------------------------------------------*/
